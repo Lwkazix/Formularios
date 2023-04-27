@@ -1,0 +1,49 @@
+body{
+  border: 1px solid black;
+  background-image: url('1da3663ce1d7d0f6098a31a667e862b4.gif');
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.main{
+    display:inline-block;
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+    text-align: center;
+    background-image:linear-gradient(black,#263A29);
+    background-image: url("1da3663ce1d7d0f6098a31a667e862b4.gif");
+    
+}
+
+
+#email{
+    border: 1px solid black; 
+    color: #fff;
+}
+#nome{
+    border: 1px solid black; 
+    color:  #fff;
+    
+}
+.sexo{
+    border: 1px solid black;
+    color: #fff;
+}
+#linguagens{
+    border: 1px solid black;
+    color:#fff ;
+}
+#hora{
+    border: 1px solid black;
+    color:#fff;
+}
+#datadenasc{
+    border: 1px solid black;
+    color:#fff;
+}
+#senha{
+    border: 1px solid black;
+    color: #fff;
+}

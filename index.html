@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+   <form class="main" action="next.pag.html" method="post">
+            <div id="nome">
+                <label for="nome">Nome:</label>
+            <input type="text" placeholder="Nome Completo" name="nome" id="nome">
+            </div>
+            <div id="email">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="@Email Valido" name="nome" id="nome"> 
+            </div>
+            <div id="datadenasc">
+                <label for="datadenasc">Data de Nascimento</label>
+                <input type="date" name="datadenasc" id="datadenasc">
+            </div>
+            <div class="sexo">
+                <p>SEXO</p>
+                <label for="sexo">Feminino</label>
+                <input type="radio" name="sexo" id="sexo">
+    
+                <label for="sexo">Masculino</label>
+                <input type="radio" name="sexo" id="sexo">
+    
+                <label for="sexo">Outro</label>
+                <input type="radio" name="sexo" id="sexo">
+            </div>
+            <div id="linguagens">
+                <p>Linguagens que Domina</p>
+                <label for="lqd">Java</label>
+                <input type="checkbox" name="lqd" id="lqd">
+    
+                <label for="lqd">Java Script</label>
+                <input type="checkbox" name="lqd" id="lqd">
+    
+                <label for="lqd">Python</label>
+                <input type="checkbox" name="lqd" id="lqd">
+                
+                <label for="lqd">C#</label>
+                <input type="checkbox" name="lqd" id="lqd">
+            </div>
+            <div id="hora">
+                <p>Horario de Preferencia</p>
+                <select name="" id="">
+                    <option value="">Selecione</option>    
+                    <option value="Matutino">Matutino</option>
+                    <option value="Vespertino">Vespertino</option>
+                    <option value="Noturno">Noturno</option>
+                </select>
+                <div id="senha">
+                    <label for="senha">Insira a Senha</label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+                
+                
+                
+                <label for="ENVIAR"></label>
+
+
+
+
+                <input type="submit" value="ENVIAR">
+                
+            </div>
+   </form>
+
+</body>
+</html>
